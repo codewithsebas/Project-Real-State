@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Project Real State #1
 
-First, run the development server:
+JavaScript is a very popular and versatile programming language that is widely used in web development. It supports a wide range of platforms and devices, and is a good choice for projects involving data manipulation and user interaction.
+
+This project was developed in 3 and a half hours, thanks to a tutorial on YouTube, content creator and FullStack programmer, JavaScript Mastery thanks to him I was able to make this great project called Real State, I hope it will be useful for future projects, or so you can improve your knowledge of this project!
+#
+
+Have I encountered any particular challenges while working on this project? What have I learned or improved in my programming skills through this project?
+
+Thanks to [@JavaScriptMastery](https://www.youtube.com/@javascriptmastery) I have developed better my ability to understand how everything is connected, how to integrate different libraries, like "CHAKRA, FRAMER MOTION, MILLIFY, NPROGRESS & REACT HORIZONTAL SCROLLING MENU".
+
+Besides that he explains in an incredible way, I love to see his videos and explanations, creation of Apps, Clones etc...
+
+
+## Authors of Project
+
+- Creador [@adrianhajdin](https://www.github.com/adrianhajdin)
+- Clone [@codewithsebas](https://www.github.com/codewithsebas)
+
+
+## Documentation RAPID Api
+
+API Link [Bayut](https://rapidapi.com/apidojo/api/bayut/)
+
+    1. Create an account in RAPID Api.
+    2. Enter the following URL [https://rapidapi.com/apidojo/api/bayut/pricing]
+    3. Choose BASIC plan $0.00 
+    4. Login to Endpoints and Start your Endpoints
+    4. Copy your headers: {
+            'X-RapidAPI-Key': 'YOU KEY',
+            'X-RapidAPI-Host': 'YOU HOST'
+        }
+    5. Creates a .env.local file for NEXT.JS
+## Environment Variables
+
+Name your variables as
+
+`RAPID_API = "YOU KEY"`
+
+`RAPID_HOST = "YOU HOST"`
+
+## Installation
+
+Install dependencies
 
 ```bash
-npm run dev
-# or
-yarn dev
+  npm install
+  
+  -
+
+  npm run dev
 ```
+    
+## Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Insert gif or link to demo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Screenshots
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![App Real State](https://res.cloudinary.com/dovavvnjx/image/upload/v1673320050/Captura_de_pantalla_2023-01-09_220535_dshabw.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
